@@ -7,10 +7,10 @@
 
 class ColorCodeSyntaxHighlighterPlugin extends Omeka_Plugin_AbstractPlugin
 {
-    const OPTION_NAME = 'pdf_embed_settings';
+    const OPTION_NAME = 'code_highlighter_settings';
 
     private static $types = array('text');
-    private static $exts = array('css', 'cpp', 'java', 'perl', 'php');
+    private static $exts = array('css', 'cpp', 'java', 'js', 'perl', 'php', 'py');
     private static $defaultSettings = array(
         'fontsize' => 10,
         'highlighting_style' => 'default'
