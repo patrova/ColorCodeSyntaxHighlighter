@@ -1,5 +1,5 @@
 <?php $view = get_view(); ?>
-<div id="pdf-embed-settings">
+<div id="code_highlighter_settings">
     <div class="field">
         <div class="two columns alpha">
             <?php echo $view->formLabel('fontsize', __('Font Size')); ?>
