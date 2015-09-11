@@ -7,5 +7,9 @@ to perform color syntax highlighting. The general structure
 of the plugin is based on the 
 [PdfEmbed Plugin][2] by John Flatness.
 
+There are two configurable options:
+   - Font size for the code display
+   - Code highlighting style
+   
  [1]: https://highlightjs.org/
  [2]: https://github.com/zerocrates/PdfEmbed
